@@ -1,3 +1,3 @@
 function NewCode(){
-    return (<button></button>)
+    return (<button>Open File</button>);
 }
