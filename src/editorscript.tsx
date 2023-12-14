@@ -1,2 +1,4 @@
-console.log(10010011)
-//still in development
+function StartCode(){
+return
+(<button>Start Coding!</button>);
+}
