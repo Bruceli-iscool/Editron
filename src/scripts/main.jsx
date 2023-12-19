@@ -1,15 +1,44 @@
 function NewCode(){
-    return (<button>Open File</button>);
+    return (<div>
+        <button><Open></Open></button>
+        <input type="file" />
+        </div>);
 }
 function NewFile() {
-    return (<button>New File</button>)
+    return (<div>
+        <button>New</button>
+        <input type="file" />
+        </div>);
 }
 function SaveFile() {
-    return (<button>Save</button>)
-}
+    return (<div>
+        <button>Save</button>
+        <input type="file" />
+        </div>);
+    
+}          
 function SaveAs() {
-    return (<button>Save As</button>)
+    return (<div>
+        <button>Save As</button>
+        <input type="file" />
+        </div>);
 }
 function NewTextFile() {
-    return (<button>New Text File</button>)
+    return (<div>
+        <button>New Text File</button>
+        <input type="file" />
+        </div>);
 }
+function App() {
+    return (
+        <div>
+            <NewCode />
+            <NewFile />
+            <SaveFile />
+            <SaveAs />
+            <NewTextFile />
+        </div>
+    );
+}
+
+export default App;
