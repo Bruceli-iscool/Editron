@@ -1,6 +1,13 @@
+function Filebar() {
+    return (<div>
+        <button>File</button>
+        <input type="menu"/></div>)
+}
+
+
 function NewCode(){
     return (<div>
-        <button><Open></Open></button>
+        <button>Open</button>
         <input type="file" />
         </div>);
 }
@@ -32,6 +39,7 @@ function NewTextFile() {
 function App() {
     return (
         <div>
+           <Filebar/>
             <NewCode />
             <NewFile />
             <SaveFile />
