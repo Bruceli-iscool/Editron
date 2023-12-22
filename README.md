@@ -1,2 +1,2 @@
 # Editron
-A simple code editor for web development.
+A simple code editor for javascript and typescript development.
